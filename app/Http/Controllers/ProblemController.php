@@ -10,7 +10,7 @@ class ProblemController extends Controller
     {
     	if ($input > 0) {
 	    	$output = ceil($input/5);
-	    	return $output;
+	    	return 'Min Num of steps = '.$output;
     	}else{
     		return 'input must be greater than 0';
     	}
